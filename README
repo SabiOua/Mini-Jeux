@@ -1,0 +1,22 @@
+// fichier README
+//  projet_c++
+//  Created SabiOua on 14/11/2016.
+
+
+Pour servir de se projet,Dans un shell.
+1ère Méthode:
+Il faut simplement lancer l'executable produit lors de la compilation
+grace au Makefile.(Pour changer son nom il faut changer la variable $BUT).
+Puis le lancer grace a ./nom_executable.
+2ième Méthode:
+Ou compiler à l'aide de g++ -Wall fichiers.cpp --std=c++11 -o mon_executable
+ ou fichiers.cpp doit être remplacé par tous les fichiers.cpp du projet par exemple Joeur.cpp
+=> pour compiler en c++11. Lancer ./mon_executable.
+3ième Méthode:
+Ou compiler à l'aide de g++ -Wall fichiers.cpp -o mon_executable
+ ou fichiers.cpp doit être remplacé par tous les fichiers.cpp du projet par exemple Joeur.cpp
+ Lancer ./mon_executable
+Choisir le jeu auquel on veut jouer,le joueur ou le robot,puis jouer.
+
+à la fin faire make clean pour effacer tous les fichier.o
+ou faire à la main rm *.o dans un shell
